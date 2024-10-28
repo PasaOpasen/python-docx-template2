@@ -1,4 +1,4 @@
-python-docx
+bayoo-docx
 docxcompose
 jinja2
 lxml

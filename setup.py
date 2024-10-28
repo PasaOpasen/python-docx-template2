@@ -43,7 +43,7 @@ def get_version(pkg):
     raise RuntimeError("Unable to find __version__ string in %s." % path)
 
 
-setup(name='docxtpl',
+setup(name='docxtpl2',
       version=get_version('docxtpl'),
       description='Python docx template engine',
       long_description=long_description,
@@ -59,11 +59,11 @@ setup(name='docxtpl',
           "Programming Language :: Python :: 3.12",
       ],
       keywords='jinja2',
-      url='https://github.com/elapouya/python-docx-template',
+      url='https://github.com/PasaOpasen/python-docx-template2',
       author='Eric Lapouyade',
       license='LGPL 2.1',
       packages=['docxtpl'],
-      install_requires=['python-docx>=1.1.1',
+      install_requires=['bayoo-docx',
                         'docxcompose',
                         'jinja2',
                         'lxml'],
