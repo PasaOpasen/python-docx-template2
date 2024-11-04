@@ -1,4 +1,4 @@
 bayoo-docx
-docxcompose
+docxcompose2
 jinja2
 lxml

@@ -45,7 +45,7 @@ def get_version(pkg):
 
 setup(name='docxtpl2',
       version=get_version('docxtpl'),
-      description='Python docx template engine',
+      description='Python docx template engine (with bayoo-docx dependency)',
       long_description=long_description,
       classifiers=[
           "Intended Audience :: Developers",
@@ -64,7 +64,7 @@ setup(name='docxtpl2',
       license='LGPL 2.1',
       packages=['docxtpl'],
       install_requires=['bayoo-docx',
-                        'docxcompose',
+                        'docxcompose2',
                         'jinja2',
                         'lxml'],
       extras_require={'docs': ['Sphinx', 'sphinxcontrib-napoleon']},

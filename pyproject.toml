@@ -8,7 +8,7 @@ readme = "README.rst"
 [tool.poetry.dependencies]
 python = "^3.11"
 bayoo-docx = "^0.2.20"
-docxcompose = "^1.4.0"
+docxcompose2 = "^1.4.2"
 jinja2 = "^3.1.4"
 black = "^24.4.2"
 
